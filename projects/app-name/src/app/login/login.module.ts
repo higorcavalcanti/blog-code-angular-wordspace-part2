@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { LoginRoutingModule } from './login-routing.module';
 import { LoginComponent } from './login.component';
 import { ReactiveFormsModule } from '@angular/forms';
-
+import { HttpModule } from 'lib-name/http/http.module';
 
 @NgModule({
   declarations: [
@@ -14,6 +14,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     CommonModule,
     LoginRoutingModule,
     ReactiveFormsModule,
+    HttpModule,
   ]
 })
 export class LoginModule { }

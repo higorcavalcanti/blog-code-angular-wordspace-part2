@@ -10,8 +10,12 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "paths": {
+      "lib-name/*": [
+        "projects/lib-name/src/lib/*",
+        "projects/lib-name/src/lib/"
+      ],
       "lib-name": [
-        "dist/lib-name/lib-name",
+        "dist/lib-name/*",
         "dist/lib-name"
       ]
     },

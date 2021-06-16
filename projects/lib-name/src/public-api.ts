@@ -2,6 +2,5 @@
  * Public API Surface of lib-name
  */
 
-export * from './lib/lib-name.service';
-export * from './lib/lib-name.component';
-export * from './lib/lib-name.module';
+export * from './lib/http/http.module';
+export * from './lib/http/auth.service';
